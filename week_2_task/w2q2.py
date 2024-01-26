@@ -2,6 +2,6 @@
 # displays the corresponding temperature in Fahrenheit, like so:
 # Enter a temperature in Celsius: 32.5
 # 32.5C is equivalent to 90.5F.
-a=int(input("enter temperature in fahrenheit: "))
-con=(a - 32) * 5/9
-print(con,'celcius')
+celsius=int(input("enter temperature in celsius: "))
+Fahrenheit=(celsius * 1.8) + 32
+print(Fahrenheit,'degree fahrenheit')
